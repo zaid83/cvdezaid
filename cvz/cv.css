@@ -122,7 +122,7 @@ h3{
 	font-family: 'Oswald', sans-serif;
 }
 
-#listcomp li
+.listcomp li
 {
 	padding:10px;
 	border-bottom: 1px dotted gray;
