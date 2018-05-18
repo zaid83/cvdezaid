@@ -94,8 +94,8 @@
 		  <h3 id="lieninfos6" > Formations </h3>
 		  <br>
 			<div id="clicinfos6">
-			   <li> 2007: BAC ECONOMIQUE ET SOCIALE </li>
-			   <li> 2012: BTS SIO </li>
+			   <li> <span class="infosbold">2007: </span>BAC ECONOMIQUE ET SOCIALE </li>
+			   <li> <span class="infosbold">2012: </span>BTS SIO </li>
 			  </div>
 			 
 		   <br>
@@ -109,14 +109,14 @@
 		   <h3 id="lieninfos4" > Experiences Professionelles </h3>
 		   <br>
 		   <div id="clicinfos4">
-			 <h5> 2017: Developpeur web à <a href="http://resurgences.eu/">Resurgences</a> </h5>
+			 <h5> <span class="infosbold">2017: </span>Developpeur web à <a href="http://resurgences.eu/" target="_blank" >Resurgences</a> </h5>
 			   
 				 <li>Travail en equipe </li>
 				 <li>Repondre aux besoins du  client </li>
 				 <li>Respect d'un cahier des charges </li>
 				
 			<br>
-			  <h5> 2017: Stage à <a href="http://ktalyse.com/">Ktalyse</a> </h5>
+			  <h5> <span class="infosbold">2017: </span>Stage à <a href="http://ktalyse.com/" target="_blank">Ktalyse</a> </h5>
 				 
 				 <li>Respect des délais</li>
 				 <li>Autonomie</li>
@@ -133,12 +133,12 @@
 		  <br>
 		  <div id="clicinfos5" class="listcomp">
 			
-			 <li>Html<span class="etoile"><img class="star"src="etoile.jpg"></span><span class="etoile"><img class="star"src="etoile.jpg"></span><span class="etoile"><img class="star"src="etoile.jpg"></span><span class="etoile"><img class="star"src="etoile.jpg"></span></li>
-			 <li>CSS<span class="etoile"><img class="star"src="etoile.jpg"></span><span class="etoile"><img class="star"src="etoile.jpg"></span><span class="etoile"><img class="star"src="etoile.jpg"></span><span class="etoile"><img class="star"src="etoile.jpg"></span></li>
-			 <li>Javascript<span class="etoile"><img class="star"src="etoile.jpg"></span><span class="etoile"><img class="star"src="etoile.jpg"></span></li>
-			 <li>Jquery<span class="etoile"><img class="star"src="etoile.jpg"></span><span class="etoile"><img class="star"src="etoile.jpg"></span></li>
-			 <li>PHP<span class="etoile"><img class="star"src="etoile.jpg"></span><span class="etoile"><img class="star"src="etoile.jpg"></span></li>
-			 <li>Wordpress<span class="etoile"><img class="star"src="etoile.jpg"></span><span class="etoile"><img class="star"src="etoile.jpg"></span></li>
+			 <li>Html<span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoilev.png"></span></li>
+			 <li>CSS<span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoilev.png"></span></li>
+			 <li>Javascript<span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoilev.png"></span><span class="etoile"><img class="star"src="etoilev.png"></span><span class="etoile"><img class="star"src="etoilev.png"></span></li>
+			 <li>Jquery<span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoilev.png"></span><span class="etoile"><img class="star"src="etoilev.png"></span><span class="etoile"><img class="star"src="etoilev.png"></span></li>
+			 <li>PHP<span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoilev.png"></span><span class="etoile"><img class="star"src="etoilev.png"></span><span class="etoile"><img class="star"src="etoilev.png"></span></li>
+			 <li>Wordpress<span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoile.png"></span><span class="etoile"><img class="star"src="etoilev.png"></span><span class="etoile"><img class="star"src="etoilev.png"></span><span class="etoile"><img class="star"src="etoilev.png"></span></li>
 			
 			 </div>
 		
@@ -157,9 +157,9 @@
 		
 		
 		<script>
-		/* $("#buttnom").click(function(){
+		 $("#buttnom").click(function(){
 		$(".giftitle").toggle();
-	}); */
+	}); 
 		$("#lieninfos").click(function(){
 		$("#clicinfos").toggle();
 	});
@@ -178,6 +178,10 @@
 		$("#lieninfos6").click(function(){
 		$("#clicinfos6").toggle();
 	});
+	
+$("h1").mouseover(function(){
+    $(this).addClass('animated pulse');
+});
 
 
 	</script>
