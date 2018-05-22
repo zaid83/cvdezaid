@@ -1,0 +1,172 @@
+
+#clicinfos,#clicinfos2,#clicinfos3,#clicinfos4,#clicinfos5,#clicinfos6
+{
+display:none;
+}
+
+
+body
+{
+	color:white;
+	margin-top:40px;
+	margin-bottom:40px;
+	background-image:url("bgg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	font-family: 'Acme', sans-serif;
+}
+
+
+
+.container{
+	border:1px solid orange;
+	 background-color: rgba(120, 220, 225, 0.1);
+
+}
+
+
+
+#PrenomNom
+{
+	padding-top:40px;
+	color:orange;
+	text-align: center;
+	font-size:30px;
+}
+
+
+
+.adress
+{
+	margin-left:10px;
+	
+}
+.telephone
+{
+	margin-left:60px;
+}
+
+.email
+{
+	margin-left:100px;
+}
+
+
+
+.titreducv
+{
+	text-align: center;
+	color:white;
+	font-family: Courier, Monaco, monospace;
+	
+}
+
+.star
+{
+	margin-left:20px;
+	width:20px;
+	text-align:justify;
+}
+
+.ordi{
+	width:10px;
+}
+
+#DivComp
+{
+	
+	margin-left:20px;
+	border:2px solid orange;
+	margin-bottom:100px;
+	background-color: rgba(120, 220, 245, 0.2);
+}
+
+
+#infosco
+{margin-left:20px;
+	border:2px solid orange;
+	margin-bottom:100px;
+	  background-color: rgba(120, 220, 245, 0.2);
+}
+
+.infos
+{
+	text-align:justify;
+	text-align:center;
+}
+p,li,h5,h3 {
+	text-align:justify;
+	text-align:center;
+	list-style-type:none;
+}
+.Ic
+{
+	border-bottom:1px dotted orange;
+
+}
+
+.infosbold
+{
+	color:orange;
+}
+
+
+h3{
+	text-align:center;
+	color:#ff4000;
+	border:1px solid #ff4000;
+	background-color:white;
+	padding:1px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.listcomp li
+{
+	padding:10px;
+	border-bottom: 1px dotted gray;
+	list-style-type:none;
+margin-bottom:10px;
+}	
+
+.giftitle {
+	display:none;
+	width:200px;
+	
+}
+p:hover
+{
+	color:#FFCC00;
+}
+li:hover
+{
+	color:#FFCC00;
+}
+h3:hover
+{
+	color:#FFCC00;
+}
+
+.chocolat 
+{
+	border:1px solid #B9121B;
+	padding:8px;
+	background-color: white;
+	color:#BD8D46;
+}
+.retro 
+{
+	margin-left:10px;
+	border:1px solid orange;
+	padding:8px 15px;
+	background-color: black;
+	color:white;
+}
+.bluesky 
+{
+	margin-left:10px;
+	border:1px solid blue;
+	padding:8px 15px;
+	background-color:#ABC8E2;
+	color:black;
+}
