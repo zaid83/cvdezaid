@@ -21,7 +21,7 @@ body
 
 .container{
 	border:1px solid #183152;
-	 background-color: rgba(196, 215, 237, 0.6);
+	 background-color: rgba(100, 205, 237, 0.3);
 
 }
 
@@ -30,7 +30,7 @@ body
 #PrenomNom
 {
 	padding-top:40px;
-	color:#183152;
+	color:white;
 	text-align: center;
 	font-size:30px;
 }
@@ -79,7 +79,7 @@ body
 	margin-left:20px;
 	border:2px solid #183152;
 	margin-bottom:100px;
-	background-color: rgba(170, 200, 225, 0.2);
+	background-color: rgba(100, 200, 225, 0.3);
 }
 
 
@@ -87,7 +87,7 @@ body
 {margin-left:20px;
 	border:2px solid #183152;
 	margin-bottom:100px;
-	 background-color: rgba(170, 200, 225, 0.2);
+	 background-color: rgba(100, 200, 225, 0.3);
 }
 
 .infos
